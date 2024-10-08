@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load Excel file (Replace with the actual file path and Sheet name)
-file_path = r'Class data.xlsx'
+file_path = 'Class data.xlsx'
 df = pd.read_excel(file_path, sheet_name='Sheet1')
 
 # Group by Year and Class and count the frequency of occurrence
