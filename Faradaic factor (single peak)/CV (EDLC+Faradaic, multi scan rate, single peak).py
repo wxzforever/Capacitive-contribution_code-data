@@ -46,7 +46,7 @@ def IEDLC(Eap, Ei, Ef, Rs, Cd, v, AEDLCOX, AEDLCRED, Rp):
     term3 = AEDLCRED * (-v) * Cd * (1 - np.exp(-tdischarge(Eap, v, Ef) / (Rs * Cd)))*1000 + \
             AEDLCRED * (-v) * (1 / Rp) * (tdischarge(Eap, v, Ef) - Rs * Cd * (1 - np.exp(-tdischarge(Eap, v, Ef) / (Rs * Cd))))*1000
 
-    return term1-0.2, term2 + term3-0.2
+    return term1, term2 + term3
 
 def IFarad(n, F, S, k, Gamma, alpha, R, T, v, Eap):
     I_forward = (n * F * S * k * Gamma *
@@ -87,6 +87,4 @@ plt.xticks(fontsize=24)
 plt.yticks(fontsize=24)
 plt.xlabel('Potential (V)', fontsize=24)
 plt.ylabel('Current (A)', fontsize=24)
-plt.xlim(-0.05, 1.05)
-plt.ylim(-0.5, 0.5)
 plt.show()
