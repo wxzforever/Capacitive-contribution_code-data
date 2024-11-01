@@ -1,2 +1,2 @@
 # Capacitive-contribution
-Calculation of proportionality of scan rate
+Calculation of scan rate proportionality
