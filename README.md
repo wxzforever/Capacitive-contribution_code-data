@@ -1,5 +1,4 @@
-# Capacitive-contribution
-Capacitive Contribution Analysis
+# Capacitive Contribution Analysis
 
 This work consists of a series of meticulously designed and validated Python scripts, focusing on the theoretical calculation and visualization of capacitive contributions in electrochemical systems. The code efficiently simulates and analyzes electric double-layer capacitor (EDLC) behavior, combined with Faradaic processes and pseudocapacitive characteristics, providing accurate evaluation and separation of capacitive contributions. The code includes the following features:
 
