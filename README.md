@@ -9,3 +9,5 @@ This work consists of a series of meticulously designed and validated Python scr
 5. Precise computational models, including area integration and linear fitting, ensuring both efficiency and accuracy.
 
 This work is highly suitable for researchers in electrochemical energy storage, enabling the analysis of capacitive contributions in supercapacitors, batteries, and pseudocapacitive materials. It not only aids in understanding capacitive behavior in complex systems but also provides guidance for the design and optimization of new materials.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14190376.svg)](https://doi.org/10.5281/zenodo.14190376)
